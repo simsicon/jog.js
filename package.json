@@ -1,0 +1,16 @@
+{
+    "name": "application-name"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.1"
+		, "express-resource" : "*"
+		, "mustache": ">=0.3.0"
+		, "stache": "*"
+		, "cradle": "*"
+		, "oauth" : "*"
+		,	"date-utils" : "*"
+		,	"underscore" : "*"
+		
+  }
+}

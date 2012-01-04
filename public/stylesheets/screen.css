@@ -1,0 +1,117 @@
+.hidden{
+  display: none;
+}
+
+.nav_icon.prev::before{
+  font-size: 20px;
+  content: '2';
+}
+
+.nav_icon.next::before{
+  font-size: 20px;
+  content: '3';
+}
+
+.nav_icon.play::before{
+  font-size: 10px;
+  content: 'B';
+}
+
+.nav_icon.quato::before{
+  font-size: 10px;
+  content: 'L';
+}
+
+.nav_icon.comment::before{
+  font-size: 15px;
+  content: 'b';
+}
+
+.nav_icon.trash::before{
+  font-size: 15px;
+  content: 's';
+}
+
+.nav_icon.admin::before{
+  font-size: 15px;
+  content: 'a';
+}
+
+.nav_icon.logout::before{
+  font-size: 15px;
+  content: '5';
+}
+
+.nav_icon::before{
+  font-family: "IconicStrokeRegular";
+  font-size: 35px;
+  line-height: normal;
+  color: black;
+  content: "";
+  margin: 0 0.55em 0 -0.25em;
+}
+
+.grey_top_bar{
+  background-color: #C4DDED;
+}
+
+.user_signed{
+  float: right;
+}
+
+.user_signed img{
+  margin: 10px;
+}
+
+.container > footer p{
+  text-align: center;
+}
+
+.container.main{
+  margin-top: 100px;
+  width: 50%;
+}
+
+.container.head{
+  width: 50%;
+}
+
+.nav_link.hidden.prev{
+  visibility: hidden;
+}
+
+.nav_link.hidden.next{
+  visibility: hidden;
+}
+
+.title{
+  
+}
+
+.remarkable{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  color: #C4DDED;
+}
+
+#cke_content{
+  width : 50%;
+}
+
+ul.inline {
+  list-style-type: none;
+}
+
+ul.inline li{
+  border-right: 1px solid #ffffff; 
+  width:260px; 
+  margin: 2px;
+  display:inline;
+}
+
+.new_comment input{
+  display : block;
+  margin-top : 7px;
+}

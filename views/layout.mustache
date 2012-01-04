@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {{title}}
+    </title>
+		<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen">
+		<script type="text/javascript" src="javascripts/lib/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="javascripts/lib/underscore.js"></script>
+		<script type="text/javascript" src="javascripts/lib/backbone.js"></script>
+		<script type="text/javascript" src="javascripts/jog/events.js"></script>
+		<script type="text/javascript" src="javascripts/jog/models.js"></script>
+		<script type="text/javascript" src="javascripts/jog/collections.js"></script>
+		<script type="text/javascript" src="javascripts/jog/routers.js"></script>
+		<script type="text/javascript" src="javascripts/jog/views.js"></script>
+		<script type="text/javascript" src="javascripts/jog.js"></script>
+		<script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+		
+		<style>
+		  body { background: white; }
+      li { list-style: none !important; }
+    </style>
+		{{>nav_link_}}
+		{{>article_}}
+		{{>action_}}
+		{{>comment_}}
+  </head>
+  <body>
+    {{{yield}}}
+  </body>
+</html>

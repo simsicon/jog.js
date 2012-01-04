@@ -1,0 +1,4 @@
+node_modules
+couchdb.stderr
+couchdb.stdout
+npm-debug.log

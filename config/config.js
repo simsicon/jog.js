@@ -1,0 +1,1 @@
+exports.twitter = {key: "your twitter key", secret: "your twitter secret" };

@@ -1,0 +1,35 @@
+<div class='topbar'>
+	<div class='grey_top_bar'>
+		<div class='container head'>
+			<a class='brand' href='/'>{{title}}</a>
+			{{>nav}}	
+		</div>
+	</div>	
+	
+</div>
+
+<div class='container main'>
+	<div class='pull-right'>
+		{{#login}}
+			<ul class='inline'>
+				<li>{{username}}</li>
+				<li><img id='avatar' class="thumbnail"  src="{{avatar_url}}" width='20px'></li>
+				<li><a href='/admin' class='nav_icon admin'></a></li>
+				<li><a href='/logout' class='nav_icon logout'></a></li>
+			</ul>
+		{{/login}}
+	</div>	
+	<div id="article"></div>
+	
+	<ul id='user-actions' class="inline">
+	</ul>
+	
+	<div id='comment-area'></div>
+	{{#admin_actions}} {{/admin_actions}}
+	{{>partial}}
+	
+</div>
+
+
+
+
